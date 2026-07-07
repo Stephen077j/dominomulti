@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧮 CalcProSte
+#  CalcProSte
 
 **A scientific mathematics toolkit for mobile** — an advanced calculator plus algebra, analysis,
 curve plotting, geometry and statistics tools, in a neon-styled Expo app.
@@ -24,7 +24,7 @@ behind a tabbed interface — designed with a distinctive neon UI, haptics and a
 > Built by a Mathematics Master's graduate — the feature set mirrors real coursework
 > (linear algebra, analysis, statistics).
 
-## ✨ Modules
+##  Modules
 
 | Tab | What it does |
 |---|---|
@@ -39,36 +39,8 @@ behind a tabbed interface — designed with a distinctive neon UI, haptics and a
 Extras: calculation **history** (context-based), a **license** gate, angle-mode switching,
 haptic feedback and an animated star-field UI.
 
-## 🛠️ Tech stack
 
-Expo · Expo Router · React Native · TypeScript · **math.js** · expo-haptics ·
-expo-linear-gradient · expo-secure-store · expo-crypto.
-
-## 📁 Structure
-
-```
-dominomulti/            # (app name: CalcProSte)
-├── app/
-│   ├── (tabs)/         # index (calculator), algebre, analyse, courbes, geo, stats, outils
-│   ├── _layout.tsx
-│   └── licence.tsx
-├── components/         # NeonButton, StarField, SectionTab…
-├── context/            # CalcHistoryContext, LicenseContext
-├── hooks/              # useColors…
-├── constants/
-└── server/             # static landing page (serve.js)
-```
-
-## 🚀 Getting started
-
-```bash
-npm install
-npm run dev        # start Expo (scan the QR code with Expo Go)
-npm run typecheck  # TypeScript check
-npm run build      # export
-```
-
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Rename the repository to `calcproste` (the current name no longer reflects the app)
 - [ ] Graphing improvements (zoom / pan / multiple curves)
