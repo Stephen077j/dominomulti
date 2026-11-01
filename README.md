@@ -51,3 +51,20 @@ haptic feedback and an animated star-field UI.
 ## 📄 License
 
 MIT © Joel Stephen
+
+
+---
+
+## Quality checks and contributing
+
+CalcProSte is the mathematics app described above; the repository name is historical. Check the package manifest for the exact installation and run commands.
+
+### Suggested verification scenarios
+
+- Calculator: compare standard operations against known results.
+- Angle modes: verify degree, radian and gradian conversions for trigonometry.
+- Algebra: try a solvable equation and an edge case.
+- Graphing: verify curve rendering and handling of invalid input.
+- User experience: check history, light/dark modes and small screens.
+
+For each meaningful change, create a feature branch and pull request with expected behavior, actual behavior and the checks performed. Avoid committing signing keys, credentials or other secrets.
